@@ -23,7 +23,13 @@ The Boolean expression is<br/>
 
 Symbol –<br/>
 
+![image](https://user-images.githubusercontent.com/71274647/156173746-140f3d6b-78b3-403e-9772-d400ce67ddf9.png)
+
+
 Truth table of NAND Gate -<br/>
+
+![image](https://user-images.githubusercontent.com/71274647/156173787-cd5cdd8d-d61e-4d33-abc9-89ee6be5d852.png)
+
 Case 1 – VA and VB are LOW.<br/>
 As both are low the PUN will be ON and the
 output will be changed to VDD as it gets two
@@ -52,9 +58,18 @@ Thus, Vout = LOW.<br/>
 * Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above circuit design.<br/>
 
 ## NAND schematics<br/>
+![image](https://user-images.githubusercontent.com/71274647/156173500-233e1985-8616-49fe-9482-2ca4d27d092d.png)
+
 ## NAND symbol<br/>
+![image](https://user-images.githubusercontent.com/71274647/156173543-f6232db1-0628-4a76-93cb-98532146aa65.png)
+
+
 ## NAND Testbench schematics<br/>
+![image](https://user-images.githubusercontent.com/71274647/156173442-8e6bacdd-44d6-4cef-a7b0-181bf9fdda6e.png)
+
 ## Simulation result<br/>
+![image](https://user-images.githubusercontent.com/71274647/156173349-c7b51a93-cc42-42f8-ae1f-ae7d1e00c318.png)
+
 
 ## Netlist<br/>
     
