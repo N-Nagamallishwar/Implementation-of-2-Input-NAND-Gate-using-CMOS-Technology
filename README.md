@@ -3,10 +3,10 @@ This repository presents the design of 2 Input NAND Gate . It is implemented on 
 # Table of Contents<br/>
 * [Introduction](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Introduction)<br/>
 * [Tools used](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Tools-used)<br/>
-* [NAND schematics](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##NAND-schematics<br/>
+* [NAND schematics](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##NAND-schematics)<br/>
  * [NAND symbol](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##NAND-symbol)<br/>
  * [NAND Testbench schematics](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##NAND-Testbench-schematics)<br/>
- * [Simulation result](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Simulation result)<br/>
+ * [Simulation result](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Simulation-result)<br/>
  * [Netlist](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Netlist)<br/>
  * [Author](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Author)<br/>
  * [Acknowledgements](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Acknowledgements)<br/>
