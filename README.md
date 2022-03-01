@@ -19,7 +19,7 @@ universal gates. It is called universal gate as
 we can implement any digital logic using
 NAND gates.<br/>
 The Boolean expression is<br/>
- F = (X.Y)’<br/>
+ F = (A.B)’<br/>
 
 Symbol –<br/>
 
