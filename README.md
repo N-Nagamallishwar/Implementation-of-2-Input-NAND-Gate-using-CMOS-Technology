@@ -10,4 +10,4 @@ Simulation result
 Netlist
 Author
 Acknowledgements
-./Reference
+Reference
