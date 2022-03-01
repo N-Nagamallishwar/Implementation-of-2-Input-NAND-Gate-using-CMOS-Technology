@@ -1,6 +1,17 @@
 # Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology<br/>
 This repository presents the design of 2 Input NAND Gate . It is implemented on Synopsys Custom Compiler in 28nm technology node.<br/>
 # Table of Contents<br/>
+* [Introduction](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Introduction)<br/>
+* [Tools used](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Tools used)<br/>
+* [NAND schematics](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## NAND schematics<br/>
+ * [NAND symbol](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## NAND symbol)<br/>
+ * [NAND Testbench schematics](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## NAND Testbench schematics)<br/>
+ * [Simulation result](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Simulation result)<br/>
+ * [Netlist](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Netlist)<br/>
+ * [Author](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Author)<br/>
+ * [Acknowledgements](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Acknowledgements)<br/>
+ * [Reference](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Reference)<br/>
+
 ## Introduction<br/>
 NAND gate is a logic gate which is
 complement to AND gate. It is one of the two
@@ -42,76 +53,11 @@ Thus, Vout = LOW.<br/>
 
 ## NAND schematics<br/>
 ## NAND symbol<br/>
-## Testbench schematics of 2 Input-NAND-Gate<br/>
+## NAND Testbench schematics<br/>
 ## Simulation result<br/>
 
 ## Netlist<br/>
-     *  Generated for: PrimeSim
-*  Design library name: sm_nand
-*  Design cell name: sm_nanddgn_tb
-*  Design view name: schematic
-.lib 'saed32nm.lib' TT
-
-*Custom Compiler Version S-2021.09
-*Tue Mar  1 10:38:15 2022
-
-.global gnd!
-********************************************************************************
-* Library          : sm_nand
-* Cell             : sm_nanddgn
-* View             : schematic
-* View Search List : hspice hspiceD schematic spice veriloga
-* View Stop List   : hspice hspiceD
-********************************************************************************
-.subckt sm_nanddgn a b out vdc gnd_1
-xm1 out b vdc vdc p105 w=0.1u l=0.03u nf=1 m=1
-xm0 out a vdc vdc p105 w=0.1u l=0.03u nf=1 m=1
-xm3 net13 b gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
-xm2 out a net13 net13 n105 w=0.1u l=0.03u nf=1 m=1
-.ends sm_nanddgn
-
-********************************************************************************
-* Library          : sm_nand
-* Cell             : sm_nanddgn_tb
-* View             : schematic
-* View Search List : hspice hspiceD schematic spice veriloga
-* View Stop List   : hspice hspiceD
-********************************************************************************
-xi0 a b vout net7 gnd! sm_nanddgn
-vdc net7 gnd! dc=1.8
-v2 b gnd! dc=0 pulse ( 0 1.05 0 0.1u 0.1u 10u 20u )
-v1 a gnd! dc=0 pulse ( 0 1.05 0 0.1u 0.1u 5u 10u )
-c3 vout gnd! c=1p
-
-
-
-
-
-
-
-
-.tran '1u' '20u' name=tran
-
-.option primesim_remove_probe_prefix = 0
-.probe v(*) i(*) level=1
-.probe tran v(a) v(b) v(vout)
-
-.temp 25
-
-
-
-.option primesim_output=wdf
-
-
-.option parhier = LOCAL
-
-
-
-
-
-
-.end
-
+    
 ## Author<br/>
 N Nagamallishwar, Bachelor of Technology, Indian Institute of Information Technology, Tiruchirappalli
 ## Acknowledgements<br/>
