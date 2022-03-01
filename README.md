@@ -30,28 +30,28 @@ Truth table of NAND Gate -<br/>
 
 ![image](https://user-images.githubusercontent.com/71274647/156173787-cd5cdd8d-d61e-4d33-abc9-89ee6be5d852.png)
 
-Case 1 – VA and VB are LOW.<br/>
+Case 1 – **VA** and **VB** are **LOW**.<br/>
 As both are low the PUN will be ON and the
 output will be changed to VDD as it gets two
 paths through the PMOS to VDD. As PDN is
 OFF there will be no connection between Vout
 and GND as both NMOS are OFF.<br/>
-Therefore, Vout is HIGH.<br/>
-Case 2 -VA is LOW and VB is HIGH.<br/>
+Therefore, **Vout** is **HIGH**.<br/>
+Case 2 -**VA** is **LOW** and **VB** is **HIGH**.<br/>
 PMOS1 – ON; PMOS2 – OFF;<br/> 
 NMOS1 -OFF; NMOS – ON; <br/>
 As we know in PUN the PMOS
 are parallel the one which is ON establishes
 connection between VDD and Output and as
 NMOS are in series the PDN is still OFF
-resulting Vout = HIGH.<br/>
-Case 3- VA is HIGH and VB is LOW.<br/>
+resulting **Vout = HIGH.**<br/>
+Case 3- **VA** is **HIGH** and **VB** is **LOW**.<br/>
 Similar to Case 2.<br/>
-Case 4-VA is HIGH and VB is HIGH.<br/>
+Case 4-**VA** is **HIGH** and **VB** is **HIGH**.<br/>
 As both the PMOS in PUN are OFF there
 won’t be any connection between VDD and Vout.
 As the PDN is ON the Vout is connected GND.
-Thus, Vout = LOW.<br/>
+Thus, **Vout = LOW**.<br/>
 ## Tools used<br/>
 * Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.<br/>
 * Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.<br/>
