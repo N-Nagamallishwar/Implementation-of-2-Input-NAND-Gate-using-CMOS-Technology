@@ -71,7 +71,7 @@ Thus, **Vout = LOW**.<br/>
 ![image](https://user-images.githubusercontent.com/71274647/156173349-c7b51a93-cc42-42f8-ae1f-ae7d1e00c318.png)
 
 
-## Netlist<br/>
+## [Netlist](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/commit/aa96b99b026abd4b3fbaa7326bf2bb0bd9b03e9c)<br/>
     
 ## Author<br/>
 N Nagamallishwar, Bachelor of Technology, Indian Institute of Information Technology, Tiruchirappalli
