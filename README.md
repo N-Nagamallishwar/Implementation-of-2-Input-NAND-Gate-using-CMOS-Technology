@@ -2,15 +2,15 @@
 This repository presents the design of 2 Input NAND Gate . It is implemented on Synopsys Custom Compiler in 28nm technology node.<br/>
 # Table of Contents<br/>
 * [Introduction](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Introduction)<br/>
-* [Tools used](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Tools used)<br/>
-* [NAND schematics](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## NAND schematics<br/>
- * [NAND symbol](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## NAND symbol)<br/>
- * [NAND Testbench schematics](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## NAND Testbench schematics)<br/>
- * [Simulation result](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Simulation result)<br/>
- * [Netlist](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Netlist)<br/>
- * [Author](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Author)<br/>
- * [Acknowledgements](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Acknowledgements)<br/>
- * [Reference](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md## Reference)<br/>
+* [Tools used](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Tools used)<br/>
+* [NAND schematics](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##NAND schematics<br/>
+ * [NAND symbol](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##NAND symbol)<br/>
+ * [NAND Testbench schematics](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##NAND Testbench schematics)<br/>
+ * [Simulation result](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Simulation result)<br/>
+ * [Netlist](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Netlist)<br/>
+ * [Author](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Author)<br/>
+ * [Acknowledgements](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Acknowledgements)<br/>
+ * [Reference](https://github.com/N-Nagamallishwar/Implementation-of-2-Input-NAND-Gate-using-CMOS-Technology/edit/main/README.md##Reference)<br/>
 
 ## Introduction<br/>
 NAND gate is a logic gate which is
