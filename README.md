@@ -78,7 +78,7 @@ N Nagamallishwar, Bachelor of Technology, Indian Institute of Information Techno
 ## Acknowledgements<br/>
 * [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)<br/>
 * [Synopsys Inc](https://www.synopsys.com/)<br/>
-* IIT Hyderabad<br/>
+* [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)<br/>
 * Sameer Durgoji, NIT Karnataka<br/>
 * Chinmaya Panda, IIT Hyderabad<br/>
 
